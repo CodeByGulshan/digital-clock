@@ -1,1 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #220a30;
+  font-family: "Intel", sans-serif;
+  color: #f5f5f5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 520px;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ca7df7;
+}
+
+.container span {
+  padding: 0 5px;
+}
+.colon {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #ca7df7;
+  letter-spacing: 3px;
+}
+
+#minutes,
+#seconds {
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+/* Controls & Modes */
+
+.controls,
+.modes {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+button {
+  font-size: 1rem;
+  color: #000;
+  background-color: #ca7df7;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8e44ad;
+  color: #fff;
+}
