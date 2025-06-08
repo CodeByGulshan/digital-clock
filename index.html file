@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Neura-flow</title>
+  </head>
+  <body>
+    <!-- Entry points -->
+    <div class="container">
+      <h1>Pomodoro Timer</h1>
+      <span id="minutes">25</span><span class="colon">:</span>
+      <span id="seconds">00</span>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <!-- Modes -->
+    <div class="modes">
+      <button id="Pomodoro">Pomodoro</button>
+      <button id="shortBreak">Short Break</button>
+      <button id="longBreak">Long Break</button>
+    </div>
+  </body>
+  <script src="logic.js"></script>
+</html>
